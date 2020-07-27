@@ -1,0 +1,88 @@
+﻿@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p|M+PLUS+Rounded+1c:300&display=swap');
+
+/*--------------------------------------
+    ヘッダー（ロゴが入った最上段のブロック）
+----------------------------------------*/
+    /*headerブロック*/
+.header {
+    font-family: 'M PLUS 1p';
+    font-weight: lighter;
+    font-size: 2.5vw;
+    color: #fff;
+    margin: 0px;
+    height: 15vh;  /*headerの高さ*/
+    text-align: center;
+    background-position: left;
+    background-size: contain;
+    background: linear-gradient(90deg, #fff, #fff 160px, deepskyblue 340px, deepskyblue);
+    }
+.title{
+    padding-top: 5px;
+    max-width: 1920px;
+}
+    
+
+    /*ロゴ画像設定*/
+.logo img{
+    position: absolute;
+    height: 15vh;
+    width: auto;
+    top: 0;
+    left: 0;
+    }
+
+/*-------------------------------------------
+    フッター(ページ最下部のcopyrightのパーツ)設定
+--------------------------------------------*/
+    footer.footer {
+        clear: both;
+        text-align: center;
+        padding: 6px 0px;
+    }
+
+/*-------------------------------
+    リンク設定
+---------------------------------*/
+a {
+    color: white;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/*-------------------------------------------
+    carousel追加設定 width指定でちっちゃくしないと
+--------------------------------------------*/
+.image {
+  max-width: 80vw;  
+  height: 88vh;
+  object-fit: contain;
+  border-radius: 0.5rem !important;
+
+}
+
+/*-------------------------------------------
+    見出しとかにオレンジのボックス追加
+--------------------------------------------*/
+.leftcolor{
+padding-left: 10px ;
+border-left-width: 5px ;
+border-left-style: solid ;
+border-left-color: deepskyblue;
+｝
+
+/*-------------------------------------------
+    img用
+--------------------------------------------*/
+.no-gutters {
+  margin:0;
+  padding:0;
+}
+ 
+.no-gutters　> .col,
+.no-gutters　> [class*="col-"] {
+  margin:0;
+  padding:0;
+}
